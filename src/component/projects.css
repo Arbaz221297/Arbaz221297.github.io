@@ -1,0 +1,76 @@
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+
+}
+
+.container {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 90px 30px;
+}
+
+.container .project-card{
+    position :relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width :450px;
+    height: 280px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:  0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.container .project-card:hover{
+    height:400px;
+}
+
+.container .project-card .imgBx{
+    position:absolute;
+    top:20px;
+    width:350px;
+    height:180px;
+    background:#333;
+    border-radius:12px;
+    overflow: hidden;
+    transition:0.5s;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.container .project-card:hover .imgBx{
+    top:-100px;
+    scale:0.75;
+}
+
+.container .project-card .imgBx img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .project-card .content{
+    position:absolute;
+    top:210px;
+    height: 50px;
+    overflow: hidden;
+    padding: 0 50px;
+    transition: 0.5s;
+}
+
+.container .project-card:hover .content{
+    top:80px;
+    height:300px;
+
+}
