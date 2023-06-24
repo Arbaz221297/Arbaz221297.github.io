@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ec076f1.css",
-    "main.js": "/static/js/main.33b2933f.js",
+    "main.js": "/static/js/main.697e562c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/mrchefClone.png": "/static/media/mrchefClone.9ebd77c7557d629f9323.png",
     "static/media/expressClone.png": "/static/media/expressClone.74573472f680cee53f9d.png",
@@ -11,6 +11,7 @@
     "static/media/reactlogo.png": "/static/media/reactlogo.81ed438b18e24116794d.png",
     "static/media/chakrauilogo.png": "/static/media/chakrauilogo.76df9c08b651ce4784b3.png",
     "static/media/nodejslogo.png": "/static/media/nodejslogo.d6153fa85318a68d9bca.png",
+    "static/media/Arbaz_Shaikh_Resume.pdf": "/static/media/Arbaz_Shaikh_Resume.7b45f9a72f0145730e24.pdf",
     "static/media/javascriptlogo.png": "/static/media/javascriptlogo.149c3b6fb38e3cc34092.png",
     "static/media/linklogo.png": "/static/media/linklogo.dbec62a868d30e589eef.png",
     "static/media/csslogo.png": "/static/media/csslogo.72408f82b9cc21416b99.png",
@@ -24,11 +25,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.9ec076f1.css.map": "/static/css/main.9ec076f1.css.map",
-    "main.33b2933f.js.map": "/static/js/main.33b2933f.js.map",
+    "main.697e562c.js.map": "/static/js/main.697e562c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ec076f1.css",
-    "static/js/main.33b2933f.js"
+    "static/js/main.697e562c.js"
   ]
 }
