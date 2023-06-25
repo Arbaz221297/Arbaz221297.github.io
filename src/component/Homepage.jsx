@@ -1,7 +1,7 @@
 import { Box, Button, ButtonGroup, Center, Flex, Heading, Spacer,Image, Grid } from "@chakra-ui/react"
 import Typewriter from "typewriter-effect";
 
-
+import Arbaz from "./download/Arbaz_Shaikh_Resume.pdf"
 
 
 import {DownloadIcon} from  '@chakra-ui/icons'
@@ -36,9 +36,9 @@ const Homepage=()=>{
 
 
 </Box>
-<Heading id="user-detail-intro" fontSize='23px' fontWeight="200">who focus on writing clean and user friendly applications </Heading>
-<a href="https://drive.google.com/file/d/1kssfizjn1TMiIspINAPijMKaMuN1eCFS/view?usp=sharing" target="_blank">
-<Button position="1" bgColor="#79f099" color="black" marginTop="10px" leftIcon={<DownloadIcon />} padding="12px" colorScheme='teal' variant='outline'>Resume</Button>
+<Heading fontSize='23px' fontWeight="200">who focus on writing clean and user friendly applications </Heading>
+<a href={Arbaz} download>
+<Button id="resume-button-2"  position="1" bgColor="#79f099" color="black" marginTop="10px" leftIcon={<DownloadIcon />} padding="12px" colorScheme='teal' variant='outline'>Resume</Button>
 </a>
     </Box>
     

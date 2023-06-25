@@ -32,6 +32,9 @@ function App() {
           <Skills/>
           <section ref={projectsref}></section>
           <Projects/>
+          
+          
+          <Githubcal/>
           <section ref={contactRef}></section>
           <Contact/>
          

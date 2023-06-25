@@ -83,6 +83,34 @@ const Projects =()=>{
 
 
 
+
+
+   {/* dummyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */}
+
+
+   <Box className="container"> 
+      <Box className="project-card" >
+        <Box className="imgBx"> 
+        <Image src={trivagoClone}/>
+        </Box>
+        <Box className="content">
+            <Heading className="project-title" fontSize="27px">Trivago.com-Clone</Heading>
+            <Text className="project-description" marginTop="15px" fontWeight="100" fontSize="20px">trivago is a leading global hotel search platform focused on reshaping the way travelers search for and compare hotels and alternative accommodations.</Text>
+            <Flex padding="5px"> <Text  className="project-tech-stack" width="150px"fontSize="18px" fontWeight="500" color="red">TECH STACK : </Text> <Text fontWeight="500" fontSize="18px">HTML, CSS, JavaScript, JSON Server
+</Text></Flex>
+           <Flex marginTop="20px" justifyContent="space-evenly" >
+           <a href="https://github.com/Mahima29Jaiswal/TrivagoProject" target="_blank" >
+        <Image className="project-github-link" w="35px" src={githublogo}/></a>
+        <a href="https://rainbow-capybara-f5a19f.netlify.app/" target="_blank" >
+        <Image className="project-deployed-link" w="35px" src={linklogo}/></a>
+
+           </Flex>
+        </Box>
+      </Box> 
+   </Box>
+
+
+   {/* dummyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */}
    </Flex>
    {/* <img src="https://github-readme-streak-stats.herokuapp.com/?user=skabusaeed1" class="spinner"/> */}
 

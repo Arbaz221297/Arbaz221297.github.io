@@ -12,7 +12,7 @@ const Contact =()=>{
 
     <Heading size='2xl' marginBottom={10} paddingTop={10} color="#79d392">Feel Free to connect with me</Heading>
     <Center>
-     <Box marginBottom={10}> 
+     <Box marginBottom={180}> 
        
         <Flex marginTop={5}><Image w={5} h={6} src={locationlogo} marginRight={5}/> <Heading fontWeight={100} size = "md"color="white">Satara, Maharashtra</Heading></Flex>
         <Flex marginTop={5}><Image w={5} h={6} src={emaillogo} marginRight={5}/><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank"> <Heading id="contact-email" fontWeight={100} size = "md"color="white">arbazshaikh221297@gmail.com</Heading></a></Flex>
