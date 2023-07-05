@@ -37,7 +37,7 @@ const Homepage=()=>{
 
 </Box>
 <Heading fontSize='23px' fontWeight="200">who focus on writing clean and user friendly applications </Heading>
-<a href={Arbaz} download>
+<a target="_blank" href="https://drive.google.com/file/d/1kssfizjn1TMiIspINAPijMKaMuN1eCFS/view?usp=sharing" download>
 <Button id="resume-button-2"  position="1" bgColor="#79f099" color="black" marginTop="10px" leftIcon={<DownloadIcon />} padding="12px" colorScheme='teal' variant='outline'>Resume</Button>
 </a>
     </Box>

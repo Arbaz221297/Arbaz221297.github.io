@@ -37,7 +37,7 @@ const Navbar =({homeref,aboutRef,skillsRef,projectsref,contactRef})=>{
      <Button size='lg'className="nav-link skills" _hover={{bgColor:"#0e2d2a"}} colorScheme="teal" color="#79d392" variant="ghost"  onClick={() => scrollToComponent(skillsRef)}>Skills</Button>
       <Button size='lg' className="nav-link projects" _hover={{bgColor:"#0e2d2a"}} colorScheme="teal" color="#79d392" variant="ghost" onClick={() => scrollToComponent(projectsref)} >Projects</Button>
       <Button size='lg' className="nav-link contact" _hover={{bgColor:"#0e2d2a"}} colorScheme="teal" color="#79d392" variant="ghost" onClick={() => scrollToComponent(contactRef)} >Contact</Button>
-        <a href={Arbaz} download><Button id="resume-button-1"  className="nav-link resume" size='sm' _hover={{bgColor:"#79f099"}}marginTop="5px"   leftIcon={<DownloadIcon />} >Resume</Button></a>
+        <a target="_blank" href="https://drive.google.com/file/d/1kssfizjn1TMiIspINAPijMKaMuN1eCFS/view?usp=sharing" download><Button id="resume-button-1"  className="nav-link resume" size='sm' _hover={{bgColor:"#79f099"}}marginTop="5px"   leftIcon={<DownloadIcon />} >Resume</Button></a>
     </ButtonGroup>
     
     
