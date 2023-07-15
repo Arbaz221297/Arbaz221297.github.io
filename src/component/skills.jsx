@@ -15,6 +15,7 @@ import nodejslogo from '../img/nodejslogo.png'
 import npmlogo from '../img/npmlogo.png'
 import githublogo from '../img/githublogo.jpeg'
 import {CheckCircleIcon} from  '@chakra-ui/icons'
+import "./skills.css"
 
 let store=[
     {img:htmllogo,name:"HTML"},
@@ -49,7 +50,7 @@ const Skills =()=>{
    <Center>
       <Box marginTop="60px" width="90%" alignSelf="center" >
         <Center>
-    <Flex  padding="15px" gap="10px" justify="space-around"  flexWrap="wrap" borderTopLeftRadius="50"  borderBottomRightRadius="50" width="90%" >
+    <Flex className="flexBox1" justify="space-around"  flexWrap="wrap" borderTopLeftRadius="50"  borderBottomRightRadius="50" >
     
    
     {store.map((ele)=>(

@@ -1,0 +1,22 @@
+.flexBox1{
+    
+    padding:15px;
+     gap:5px;
+     width:90%
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .skills-card{
+        /* scale: 0.7; */
+        gap:10px;
+    }
+    .flexBox1{
+        /* padding: 1px; */
+       
+        width:100%
+
+    }
+    
+  }

@@ -1,0 +1,23 @@
+.tarif{
+    width:60%
+
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+    .flexBox{
+        display: flex;
+        flex-direction:column;
+       
+    
+    }
+    .tarif{
+        width:90%    
+    
+    }
+    
+  }
+
+
