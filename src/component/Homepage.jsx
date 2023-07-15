@@ -12,6 +12,21 @@ import { color } from "framer-motion";
 import "./home.css"
 
 const Homepage=()=>{
+
+    const handleclick = (event) => {
+        event.preventDefault();
+        window.open(
+          "https://drive.google.com/file/d/1kssfizjn1TMiIspINAPijMKaMuN1eCFS/view?usp=sharing",
+          "_blank"
+        );
+        let link = document.createElement("a");
+        link.href =
+          "https://drive.google.com/uc?export=download&id=1kssfizjn1TMiIspINAPijMKaMuN1eCFS";
+      
+        link.download = "Arbaz-Shaikh-Resume";
+        link.click();
+        };
+
     return <>
     
     <Box  id="home" padding="20px" bgColor="#011029">
@@ -37,9 +52,9 @@ const Homepage=()=>{
 
 </Box>
 <Heading fontSize='23px' fontWeight="200">who focus on writing clean and user friendly applications </Heading>
-<a target="_blank" href="https://drive.google.com/file/d/1kssfizjn1TMiIspINAPijMKaMuN1eCFS/view?usp=sharing" download={Arbaz}>
-<Button id="resume-button-2"  position="1" bgColor="#79f099" color="black" marginTop="10px" leftIcon={<DownloadIcon />} padding="12px" colorScheme='teal' variant='outline'>Resume</Button>
-</a>
+
+<Button onClick={handleclick} id="resume-button-2"  position="1" bgColor="#79f099" color="black" marginTop="10px" leftIcon={<DownloadIcon />} padding="12px" colorScheme='teal' variant='outline'>Resume</Button>
+
     </Box>
     
 
