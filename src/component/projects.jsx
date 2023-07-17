@@ -5,6 +5,7 @@ import linklogo from '../img/linklogo.png'
 import expressClone from '../img/expressClone.png'
 import trivagoClone from '../img/trivagoClone.png'
 import mrchefClone from '../img/mrchefClone.png'
+import portfoilo from '../img/portfolio.png'
 const Projects =()=>{
     return <>
     <Box id="projects"  bgColor="#011029" >
@@ -91,17 +92,17 @@ const Projects =()=>{
    <Box className="container"> 
       <Box className="project-card" >
         <Box className="imgBx"> 
-        <Image src={trivagoClone}/>
+        <Image src={portfoilo}/>
         </Box>
         <Box className="content">
-            <Heading className="project-title" fontSize="27px">Trivago.com-Clone</Heading>
-            <Text className="project-description" marginTop="15px" fontWeight="100" fontSize="20px">trivago is a leading global hotel search platform focused on reshaping the way travelers search for and compare hotels and alternative accommodations.</Text>
-            <Flex padding="5px"> <Text  className="project-tech-stack" width="150px"fontSize="18px" fontWeight="500" color="red">TECH STACK : </Text> <Text fontWeight="500" fontSize="18px">HTML, CSS, JavaScript, JSON Server
+            <Heading className="project-title" fontSize="27px">My-Portfolio</Heading>
+            <Text className="project-description" marginTop="15px" fontWeight="100" fontSize="20px">Portfolio website to let the users know about the developer.This portfolio will gives you a brief and yet descriptive insights about the owner. </Text>
+            <Flex padding="5px"> <Text  className="project-tech-stack" width="150px"fontSize="18px" fontWeight="500" color="red">TECH STACK : </Text> <Text fontWeight="500" fontSize="18px">React, CSS, Chakra UI
 </Text></Flex>
            <Flex marginTop="20px" justifyContent="space-evenly" >
-           <a href="https://github.com/Mahima29Jaiswal/TrivagoProject" target="_blank" >
+           <a href="https://github.com/Arbaz221297/Arbaz221297.github.io" target="_blank" >
         <Image className="project-github-link" w="35px" src={githublogo}/></a>
-        <a href="https://rainbow-capybara-f5a19f.netlify.app/" target="_blank" >
+        <a href="https://arbaz221297.github.io/" target="_blank" >
         <Image className="project-deployed-link" w="35px" src={linklogo}/></a>
 
            </Flex>
