@@ -74,7 +74,7 @@ const Projects =()=>{
            <Flex marginTop="20px" justifyContent="space-evenly" >
            <a href="https://github.com/Sunil-JJ/mrchefproject" target="_blank" >
         <Image className="project-github-link" w="35px" src={githublogo}/></a>
-        <a href="https://mrchef-sand.vercel.app/" target="_blank" >
+        <a href="https://mr-chef-two.vercel.app/" target="_blank" >
         <Image className="project-deployed-link" w="35px" src={linklogo}/></a>
 
            </Flex>
