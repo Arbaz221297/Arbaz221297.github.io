@@ -32,7 +32,7 @@ const Homepage=()=>{
     <Box  id="home" padding="20px" bgColor="#011029">
         
  
-   <Box color="white" width="100%" marginTop="150px"> <Flex padding="20px">
+   <Box className="homecomp" color="white" width="100%" > <Flex padding="20px">
  
     <Box width="80%" margin="auto"  >
     <Heading fontSize='23px' fontWeight="400">Welcome to my portfoilo! </Heading>

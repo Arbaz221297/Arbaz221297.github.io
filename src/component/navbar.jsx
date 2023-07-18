@@ -43,10 +43,10 @@ const Navbar =({homeref,aboutRef,skillsRef,projectsref,contactRef})=>{
 
 
     return <>
-    <Box  id="nav-menu" padding="20px" bgColor="#011029">
+    <Box  id="nav-menu"  padding="20px" bgColor="#011029">
     <Center>
         <Spacer/>
-        <Box position="fixed"  className="bxn"  width ="100%" opacity="0.90"  bgColor="#011029"  paddingRight="30px" paddingTop="10px" paddingBottom="10px" marginTop="30px" border="2px solid #2d2d2b" >
+        <Box position="fixed" zIndex="2" height="70px"className="bxn"  width ="100%" opacity="0.90"  bgColor="#011029"  paddingRight="30px" paddingTop="10px" paddingBottom="10px" border="2px solid #2d2d2b" >
     <Flex className="flexbx" >
    
     <Box   >
@@ -54,7 +54,7 @@ const Navbar =({homeref,aboutRef,skillsRef,projectsref,contactRef})=>{
     </Box>
     <Spacer/>
     
-    <ButtonGroup className="btngrp" display={["none", "none", "none", "flex", "flex"]}  >
+    <ButtonGroup marginTop="10px" className="btngrp" display={["none", "none", "none", "flex", "flex"]}  >
       <Button size='lg' className="nav-link home"_hover={{bgColor:"#0e2d2a"}} colorScheme='whiteAlpha' color="#79d392" variant="ghost"  onClick={() => scrollToComponent(homeref)}>Home</Button>
      <Button size='lg' className="nav-link about" _hover={{bgColor:"#0e2d2a"}} colorScheme="teal" color="#79d392"  variant="ghost" onClick={() => scrollToComponent(aboutRef)} >About Me</Button>
      <Button size='lg'className="nav-link skills" _hover={{bgColor:"#0e2d2a"}} colorScheme="teal" color="#79d392" variant="ghost"  onClick={() => scrollToComponent(skillsRef)}>Skills</Button>
@@ -74,25 +74,39 @@ const Navbar =({homeref,aboutRef,skillsRef,projectsref,contactRef})=>{
 
   
       
-   <Box bgColor="#011029" position="fixed" borderRadius={"10px"}>
-        <IconButton
+   <Box  zIndex="2" opacity="0.99" bgColor="#011029" position="fixed" borderRadius={"10px"}>
+        <Flex>
+        <Box>
+          <IconButton
           float="left"
           variant="solid"
           colorScheme="white"
-          color="white"
+          color="green"
           border={"none"}
+        bgColor="white"
           {...buttonProps}
           display={["flex", "flex", "flex", "none", "none"]}
+          marginTop="-15px"
+          size="lg"
+          height="40px"
+          // width="50px"
+          opacity="0.8"
+         
           
         >
-          <HamburgerIcon />
+          <HamburgerIcon zIndex="2" />
         </IconButton>
+
+       
+        </Box>
+        
+        </Flex>
         <VStack
           marginTop="40px"
           {...disclosureProps}
-          bg="brand_secondary"
+          // bg="brand_secondary"
           fontSize={"1.5rem"}
-          // w={"100px"}
+          // w={"300px"}
           padding="5px"
           textAlign={"center"}
           borderRadius="10px"

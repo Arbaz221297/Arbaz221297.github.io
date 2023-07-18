@@ -26,7 +26,7 @@ const Githubcal =()=>{
         blockRadius={10}
         margin="30px"
       //  className="github-calendar"
-        fontSize={20}
+        // fontSize={20}
         style={{margin :"auto",color:"gray", width:"100%"}}
       />
       </Box >

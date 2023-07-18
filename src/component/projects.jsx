@@ -11,9 +11,9 @@ const Projects =()=>{
     <Box id="projects"  bgColor="#011029" >
     <br />
     
-     <Heading size='2xl' marginTop="60px" color="#79d392">Projects</Heading>
+     <Heading size='2xl' marginTop="60px" marginBottom="50px" color="#79d392">Projects</Heading>
      <Flex flexWrap="wrap" className="body1">
-   <Box className="container" > 
+   <Box  className="container" > 
       <Box className="project-card">
         <Box className="imgBx"> 
         <Image src={expressClone}/>

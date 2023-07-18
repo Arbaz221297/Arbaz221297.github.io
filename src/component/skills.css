@@ -2,21 +2,24 @@
     
     padding:15px;
      gap:5px;
-     width:90%
+     width:70%
+
+}
+.skills-card{
+    margin-bottom: 20px
 
 }
 
 
 @media screen and (max-width: 480px) {
     .skills-card{
-        /* scale: 0.7; */
-        gap:10px;
+        scale: 0.7;
+        gap:-10px;
     }
-    .flexBox1{
-        /* padding: 1px; */
-       
-        width:100%
-
+   
+    .skills-card{
+        margin-bottom: -20px
+    
     }
     
   }

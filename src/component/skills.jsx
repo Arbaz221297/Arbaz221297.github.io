@@ -48,7 +48,7 @@ const Skills =()=>{
     <br />
     <Heading size='2xl' marginTop="60px" color="#79d392">My Technical Skills</Heading>
    <Center>
-      <Box marginTop="60px" width="90%" alignSelf="center" >
+      <Box marginTop="60px" width="90%"  >
         <Center>
     <Flex className="flexBox1" justify="space-around"  flexWrap="wrap" borderTopLeftRadius="50"  borderBottomRightRadius="50" >
     
@@ -56,7 +56,7 @@ const Skills =()=>{
     {store.map((ele)=>(
         
 
-<Box  className="skills-card" border="1px solid #4d6182" w='200px' h="140" _hover={{ marginTop:"-10px",boxShadow:" rgba(255, 255, 255, 0.09) 0px 30px 20px, rgba(255, 255, 255, 0.09) 0px -12px 20px, rgba(255, 255, 255, 0.09) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;" , transition:"0.05s" ,bgColor:"#1d2d47", scale:0.55}}  bgColor="#102342"  borderRadius="20" marginBottom="20px" >
+<Box  className="skills-card" border="1px solid #4d6182" w='200px' h="140" _hover={{ marginTop:"-10px",boxShadow:" rgba(255, 255, 255, 0.09) 0px 30px 20px, rgba(255, 255, 255, 0.09) 0px -12px 20px, rgba(255, 255, 255, 0.09) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;" , transition:"0.05s" ,bgColor:"#1d2d47", scale:0.55}}  bgColor="#102342"  borderRadius="20"  >
 
     <Box h="110" padding="10px" justify="center"><Image  className="skills-card-img" width="50%" margin ="auto" src={ele.img}/></Box>
    

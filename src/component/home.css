@@ -1,6 +1,11 @@
+.homecomp{
+    margin-top: 150px;
+}
 
-
-@media (max-width: 700px) {
+@media (max-width: 420px) {
+    .homecomp{
+        margin-top: 50px;
+    }
     .codingimg{
         display: none;
     }
