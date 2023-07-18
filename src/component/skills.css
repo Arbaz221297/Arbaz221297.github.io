@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 400px) {
     .skills-card{
-        scale: 0.8;
+        scale: 0.7;
         /* gap:-10px; */
         margin-left: -20px;
     }
@@ -36,7 +36,7 @@
     }
     
   }
-  @media screen and (max-width: 825px) {
+  @media screen and (max-width: 825px) and (min-width: 401)  {
     .skills-card{
         scale: 0.9;
         /* gap:-10px; */
