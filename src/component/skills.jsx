@@ -50,7 +50,7 @@ const Skills =()=>{
    <Center>
       <Box marginTop="60px" width="90%"  >
         <Center>
-    <Flex className="flexBox1" justify="space-around"  flexWrap="wrap" borderTopLeftRadius="50"  borderBottomRightRadius="50" >
+    <Box className="flexBox1" borderTopLeftRadius="50"  borderBottomRightRadius="50" >
     
    
     {store.map((ele)=>(
@@ -77,7 +77,7 @@ const Skills =()=>{
     
    
   
-    </Flex>
+    </Box>
     
     </Center>
    </Box>
