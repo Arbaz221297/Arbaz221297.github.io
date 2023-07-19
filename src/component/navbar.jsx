@@ -25,12 +25,12 @@ const Navbar =({homeref,aboutRef,skillsRef,projectsref,contactRef})=>{
       const handleclick = (event) => {
         event.preventDefault();
         window.open(
-          "https://drive.google.com/file/d/1rPRcT4GuGmdIQZkM7FT6_iK5uACihVRd/view",
+          "https://drive.google.com/file/d/1GJlDDDqSdO9opoEp8aAmuq1sCTWc5gWb/view?usp=sharing",
           "_blank"
         );
         let link = document.createElement("a");
         link.href =
-          "https://drive.google.com/uc?export=download&id=1rPRcT4GuGmdIQZkM7FT6_iK5uACihVRd";
+          "https://drive.google.com/uc?export=download&id=1GJlDDDqSdO9opoEp8aAmuq1sCTWc5gWb";
       
         link.download = "Arbaz-Shaikh-Resume";
         link.click();
