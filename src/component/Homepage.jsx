@@ -16,12 +16,12 @@ const Homepage=()=>{
     const handleclick = (event) => {
         event.preventDefault();
         window.open(
-          "https://drive.google.com/file/d/1dL1jyA8mhY64Gn_PWmEwsyhB3x5ScLoG/view?usp=sharing",
+          "https://drive.google.com/file/d/1rPRcT4GuGmdIQZkM7FT6_iK5uACihVRd/view",
           "_blank"
         );
         let link = document.createElement("a");
         link.href =
-          "https://drive.google.com/uc?export=download&id=1dL1jyA8mhY64Gn_PWmEwsyhB3x5ScLoG";
+          "https://drive.google.com/uc?export=download&id=1rPRcT4GuGmdIQZkM7FT6_iK5uACihVRd";
       
         link.download = "Arbaz-Shaikh-Resume";
         link.click();
