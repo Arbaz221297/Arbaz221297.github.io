@@ -28,7 +28,7 @@ const Projects =()=>{
            <Flex marginTop="5px" justifyContent="space-evenly" >
            <a href="https://github.com/muskanthapa2000/EXPRESSCLONE" target="_blank">
         <Image className="project-github-link" w="35px" src={githublogo}/></a>
-        <a href="https://express-clone-ecomm-site.netlify.app/" target="_blank" >
+        <a href="https://64b7b04a2722456ed07f5bbb--tangerine-kitten-216187.netlify.app/" target="_blank" >
         <Image className="project-deployed-link" w="35px" src={linklogo}/></a>
 
            </Flex> 
