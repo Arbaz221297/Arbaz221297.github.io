@@ -34,9 +34,9 @@ const Githubcal =()=>{
        </Box>
        </Box>
       <Box width="80%"  data-aos="fade-up" data-aos-duration="1000" margin="auto"> <Flex  justify="space-around" flexWrap="wrap">
-      <Image  id="github-streak-stats" margin="20px auto" width="500" fill="100%"  src="https://github-readme-streak-stats.herokuapp.com/?user=Arbaz221297"/>
-      <Image id="github-stats-card"  margin="20px auto" width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api?username=Arbaz221297&show_icons=true"/>
-      <Image id="github-top-langs"   width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Arbaz221297&show_icons=true&locale=en&layout=compact"/>
+      <Image  id="github-streak-stats" margin="20px auto" width="500" fill="100%"  src="https://github-readme-streak-stats.herokuapp.com/?user=Arbaz221297&hide_border=true"/>
+      <Image id="github-stats-card"  margin="20px auto" width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api?username=arbaz221297&hide_border=true&include_all_commits=false&count_private=false"/>
+      <Image id="github-top-langs"   width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbaz221297&hide_border=true&include_all_commits=false&count_private=false&layout=compact"/>
       </Flex></Box >
 </Box>
     {/* </Row> */}
