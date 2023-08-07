@@ -33,10 +33,10 @@ const Githubcal =()=>{
       />
        </Box>
        </Box>
-      <Box width="80%" margin="auto"> <Flex  justify="space-around" flexWrap="wrap">
+      <Box width="80%"  data-aos="fade-up" data-aos-duration="1000" margin="auto"> <Flex  justify="space-around" flexWrap="wrap">
       <Image  id="github-streak-stats" margin="20px auto" width="500" fill="100%"  src="https://github-readme-streak-stats.herokuapp.com/?user=Arbaz221297"/>
-      <Image id="github-stats-card" margin="20px auto" width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api?username=Arbaz221297&show_icons=true"/>
-      <Image id="github-top-langs"   margin="20px auto " width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Arbaz221297&show_icons=true&locale=en&layout=compact"/>
+      <Image id="github-stats-card"  margin="20px auto" width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api?username=Arbaz221297&show_icons=true"/>
+      <Image id="github-top-langs"   width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api/top-langs?username=Arbaz221297&show_icons=true&locale=en&layout=compact"/>
       </Flex></Box >
 </Box>
     {/* </Row> */}
