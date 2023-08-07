@@ -16,20 +16,23 @@ const Githubcal =()=>{
    
     
      <Box bgColor="#011029" >
-     <Heading size='2xl' color="#79d392" marginBottom={70}>My GitHub Calendar</Heading>
-      <Box className="react-activity-calendar"  bgColor= "rgb(250, 250, 250)" width="80%" borderRadius={20} padding="20px" margin="auto">
-      <GitHubCalendar 
-        username="Arbaz221297"
+     <Heading data-aos="fade-up"  size='2xl' color="#79d392" marginBottom={70}>My GitHub Calendar</Heading>
+     <Box padding={"2%"} className="react-activity-calendar" >
+    <Box className="calendar" data-aos="fade-ip" data-aos-duration="1000">
+         {/* Loading stuff */}
+         {/* <img  src="https://ghchart.rshah.org/skabusaeed1" alt="abusaeed's Github chart"/> */}
+         <GitHubCalendar 
+        username="arbaz221297"
         blockSize={20}
         blockMargin={1}
         colorScheme="light"
         blockRadius={10}
         margin="30px"
       //  className="github-calendar"
-        // fontSize={20}
         style={{margin :"auto",color:"gray", width:"100%"}}
       />
-      </Box >
+       </Box>
+       </Box>
       <Box width="80%" margin="auto"> <Flex  justify="space-around" flexWrap="wrap">
       <Image  id="github-streak-stats" margin="20px auto" width="500" fill="100%"  src="https://github-readme-streak-stats.herokuapp.com/?user=Arbaz221297"/>
       <Image id="github-stats-card" margin="20px auto" width="500" fill="100%"  src="https://github-readme-stats.vercel.app/api?username=Arbaz221297&show_icons=true"/>
